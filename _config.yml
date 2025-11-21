@@ -1,2 +1,5 @@
-title: 欢迎来到我的笔记主页
-theme: jekyll-theme-hacker
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme 
+title: "我的个人主页"
+description: "个人避坑指南"

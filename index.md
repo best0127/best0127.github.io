@@ -1,3 +1,9 @@
+---
+layout: single
+title: "个人笔记"
+permalink: /
+---
+
 # KEY
 # 1、Github配置流程
 ## 1. 配置本地密钥

@@ -1,3 +1,4 @@
+url: "https://best0127.github.io"
 theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-paginate
@@ -7,4 +8,3 @@ plugins:
   - jekyll-include-cache
 title: "我的个人主页"
 description: "个人避坑指南"
-theme: "minimal-mistakes-jekyll" 

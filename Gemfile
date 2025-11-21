@@ -1,6 +1,3 @@
 source "https://rubygems.org"
+gem "jekyll", "~> 4.2"
 gem "minimal-mistakes-jekyll"
-gem "jekyll"
-gem "jekyll-include-cache"
-gem "kramdown", "~> 2.3"
-gem "sassc" 

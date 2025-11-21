@@ -1,10 +1,17 @@
-url: "https://best0127.github.io"
-theme: "minimal-mistakes-jekyll"
+# 启用主题
+theme: "just-the-docs"
+
+# 插件
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-title: "我的个人主页"
-description: "个人避坑指南"
+  - jekyll-include-cache 
+
+# 核心配置
+title: "个人避坑指南"
+description: "技术细节和学习记录"
+
+# 文档主题特定配置
+color_scheme: "light" # 或 "dark", "blue"
+heading_anchors: true # 标题锚点，方便分享
+
+# 侧边栏配置 (默认会扫描 _config.yml 同级的文件)
+nav_enabled: true

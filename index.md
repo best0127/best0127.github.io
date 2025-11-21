@@ -271,6 +271,6 @@ public class batChatHook implements IXposedHookLoadPackage {
 使用国内清华大学镜像源和 `--trusted-host` 参数。
 
 ```bash
-pip install -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple) --trusted-host pypi.tuna.tsinghua.edu.cn <要安装的包名>
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn <要安装的包名>
 ```
 

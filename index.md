@@ -5,7 +5,6 @@ permalink: /
 nav_order: 1
 ---
 
-# KEY
 # 1、Github配置流程
 ## 1. 配置本地密钥
 ```batch
@@ -102,7 +101,7 @@ dex->smali dex2->smali_classes2
 java -jar apktool.jar b apkFile/
 ```
 ## frida脱壳基本操作
-***2021年7月7日 汤德源***
+
 ## 1. 安装python环境
 安装frida
 ```batch

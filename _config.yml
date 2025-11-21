@@ -1,17 +1,26 @@
-# 启用主题
-theme: "just-the-docs"
+# =======================================================
+# 网站基本信息配置
+# =======================================================
+title: 学习记录
+description: 避坑指南
 
-# 插件
+# =======================================================
+# Jekyll 主题和构建配置
+# =======================================================
+remote_theme: jekyll/minimal # **核心配置：指定使用 Jekyll 官方的 Minimal 主题**
 plugins:
-  - jekyll-include-cache 
+  - jekyll-feed # 启用 RSS Feed
 
-# 核心配置
-# title: "个人避坑指南"
-# description: "技术细节和学习记录"
+# =======================================================
+# 社交链接配置 (可选，Minimal主题支持)
+# =======================================================
+# 填入你的社交媒体或外部链接。如果不需要，可以留空。
+# github_username: YourGitHubUsername # 替换为你的GitHub用户名
+# linkedin_username: YourLinkedInName 
+# twitter_username: YourTwitterHandle
+# dribbble_username: YourDribbbleName
 
-# 文档主题特定配置
-color_scheme: "dark" # 或 "dark", "blue"
-heading_anchors: true # 标题锚点，方便分享
-
-# 侧边栏配置 (默认会扫描 _config.yml 同级的文件)
-nav_enabled: true
+# =======================================================
+# 链接样式配置 (可选)
+# =======================================================
+# show_excerpts: true # 如果想在列表页显示文章摘要，取消注释

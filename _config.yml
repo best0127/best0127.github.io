@@ -7,7 +7,7 @@ description: 避坑指南
 # =======================================================
 # Jekyll 主题和构建配置
 # =======================================================
-remote_theme: jekyll/minimal # **核心配置：指定使用 Jekyll 官方的 Minimal 主题**
+theme: jekyll/minimal # **核心配置：指定使用 Jekyll 官方的 Minimal 主题**
 plugins:
   - jekyll-feed # 启用 RSS Feed
 

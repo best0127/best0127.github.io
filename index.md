@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: default
 title: "个人笔记"
 permalink: /
+nav_order: 1
 ---
 
 # KEY

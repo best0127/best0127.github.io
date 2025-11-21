@@ -127,8 +127,6 @@ public class batChatHook implements IXposedHookLoadPackage {
 
 ### 3.2 Frida 脱壳基本操作
 
-> **关键日期：** 2021年7月7日 汤德源 记录
-
 | 步骤 | 操作命令/描述 | 注意事项 |
 | :--- | :--- | :--- |
 | **1. 安装环境** | `pip install frida-tools` | 确保 Python 环境已配置 |

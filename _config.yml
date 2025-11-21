@@ -1,5 +1,10 @@
-remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
 plugins:
-  - jekyll-remote-theme 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
 title: "我的个人主页"
 description: "个人避坑指南"
+theme: "minimal-mistakes-jekyll" 
